@@ -59,10 +59,7 @@ C
       IO4=13
       NQQA=NQST
       ID3=IO3
-      WRITE(*,520)
-  520 FORMAT(' LIMIT OF DIF/UNC SQ (F5.1)')
-      READ(*,521) ULI
-  521 FORMAT(F5.1)
+      ULI = 3.
 C
 C    COPY OF CONTROLS FOR GMA
 C
