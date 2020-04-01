@@ -648,11 +648,11 @@ C
 C
 C      NORMALIZATION UNCERTAINTIES
 C
+      SES = 0.
       IF(NT .EQ. 2 .OR. NT .EQ. 4) GO TO 20
       IF(NT .EQ. 8 .OR. NT .EQ. 9) GO TO 20
       READ( ID3,107)(ENF(L),L=1,10),(NENF(L),L=1,10)
   107 FORMAT(10F5.1,10I3)
-      SES=0.
       DO 871 K=1,10
   871 SES=SES+ENF(K)*ENF(K)
 C
