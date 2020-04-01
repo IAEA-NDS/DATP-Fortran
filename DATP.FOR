@@ -429,7 +429,7 @@ C
 C   GRID VALUES
 C
       DO 35 K=1,NO
-      IF(E(K) .LT. E1 .OR. E(K) .GE. E2) GO TO 91
+      IF(E(K) .LT. E1*(1.-1e-5) .OR. E(K) .GE. E2*(1.+1e-5)) GO TO 91
       WT=1./F(12,K)
       WT=WT*WT
       IF(E(K) .GT. EQ(L)) GO TO 32
