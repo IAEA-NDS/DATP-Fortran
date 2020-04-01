@@ -30,3 +30,8 @@ the owner of this repository. So far the effected modifications are:
   allow for a larger number of measurement points per experiment.
 - The manual input of the value for variable ULI (threshold for outlier
   detection) has been replaced by a default value.
+
+Modifications can also be traced by inspecting the 
+[commit log](https://github.com/gschnabel/DATP-Fortran/commits/master)
+or by comparing the [modified DATP.FOR](DATP.FOR) with the 
+[reference DATP-initial.FOR](DATP-initial.FOR).
